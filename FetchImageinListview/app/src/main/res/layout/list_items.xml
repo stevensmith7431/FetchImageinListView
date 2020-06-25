@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Name"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text1"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="StudentNo"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text2"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Date"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text3"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="150dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Session"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text4"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Dept"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text5"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:text="Section"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:padding="5dp"
+                    android:id="@+id/text6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="250dp">
+
+                <ImageView
+                    android:id="@+id/imageid"
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_launcher_background"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
